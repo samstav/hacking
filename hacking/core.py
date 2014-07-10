@@ -19,7 +19,10 @@ Built as a sets of pep8 checks using flake8.
 """
 
 import gettext
+import imp
 import logging
+import re
+import os
 import sys
 
 import pbr.util
